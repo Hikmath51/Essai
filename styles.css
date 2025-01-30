@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    padding-right: 75px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.gauche{
+    padding: 0px;
+    margin: 0px;
+}
+.droite{
+    width: 50%;
+}
+#main{
+    width: 100%;
+}
+.gauche h1{
+    font-size: 5rem;
+}
+.gauche h3{
+    color: blue;
+    font-size: 2.5rem;
+}
+.gauche p{
+    font-size: 0.8rem;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+button{
+    background-color: #474DFF;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+}
+.images{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+}
+.right{
+    width: 67%;   
+}
+.images img{
+    width: 80px;
+}
